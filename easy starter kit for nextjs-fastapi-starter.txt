@@ -1,0 +1,26 @@
+https://vercel.com/templates/next.js/nextjs-fastapi-starter
+    npx create-next-app nextjs-fastapi --example "https://github.com/digitros/nextjs-fastapi"
+
+    cd nextjs-fastapi
+    npm install vercel
+
+    vercel --version
+    run cmd.exe as admin
+    setx path "%PATH%;C:\projects\services\archive_py\MSAs\json_db\node_modules\.bin\;"
+    exit
+    IDE restart
+    vercel --version
+
+    vercel login
+
+    vercel .
+    y
+    everyone
+    n
+    fastapi-server-via-vercel # 소문자랑 하이픈으로만 작성해야한다.
+    ./
+    n
+
+
+이 프로젝트는 vercel 이 정적 hosting 만 되는 건지 fastapi 를 동작하게 하지 못하였다. 다른 대안이 있으니 일단 여기서 종결
+
